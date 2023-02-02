@@ -48,7 +48,7 @@ header {
   position: relative;
 }
 header .header__portada--backgroundimg {
-  background-image: url("./1010/imgs/portada_don_belisario.jpg");
+  background-image: url("./1010/imgs/portada_antojitos_peruanos.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -185,7 +185,7 @@ main .promociones__caja .promos__unidades {
 }
 main .promociones__caja .promos__unidades .promo {
   width: 150px;
-  height: 230px;
+  height: 290px;
   background-color: #000000;
   border-radius: 20px;
   margin: 15px 5px;
@@ -193,7 +193,7 @@ main .promociones__caja .promos__unidades .promo {
   display: flex;
   flex-direction: column;
   align-items: center;
-  -webkit-box-shadow: 0px 0px 20px 2px rgba(255,255,255,0.81);
+  -webkit-box-shadow: 0px 0px 20px 2px rgba(255, 255, 255, 0.81);
   -moz-box-shadow: 0px 0px 20px 2px rgba(255,255,255,0.81);
   box-shadow: 0px 0px 20px 2px rgba(255,255,255,0.81);
 }
@@ -218,7 +218,19 @@ main .promociones__caja .promos__unidades .promo .info .precio {
 main .promociones__caja .promos__unidades .promo .info .precio .titulo {
   color: rgb(255, 255, 255);
   font-size: 1.7rem;
-  margin: 0;
+  margin: 0 auto;
+}
+main .promociones__caja .promos__unidades .promo .info .precio .descrip{
+  color: rgb(255, 255, 255);
+  font-size: 1.1rem;
+  margin: 0 auto;
+  text-align: center;
+}
+main .promociones__caja .promos__unidades .promo .info .precio .descripcion {
+  color: rgb(255, 0, 0);
+  font-size: 1rem;
+  margin: 0 auto;
+  text-align: center;
 }
 main .promociones__caja .promos__unidades .promo .info .precio .antes {
   font-size: 1.3rem;

@@ -42,100 +42,125 @@ Código del menú
 */
 
 const files = [
-  {   src: './1010/unidades/pechuga-parrillera-600x550.jpg',
+  {   src: './1010/unidades/1.png',
       alt: 'No disponible',
-      titulo: 'Pechuga Parrillera',
-      price: 'S/. 40.00'
+      titulo: '1/4 De Pollo A La Brasa',
+      price: 'S/. 14.00'
   },
   {   src: './1010/unidades/2.jpg',
       alt: 'No disponible',
-      titulo: 'Pollo Brasa Don Beli con Papas',
-      price: 'S/. 63.90'
+      titulo: '1/4 De Pollo A La Brasa + 1 Palo de Anticucho',
+      price: 'S/. 18.00'
   },
-  {   src: './1010/unidades/3.jpg',
+  {   src: './1010/unidades/3.jpeg',
       alt: 'No disponible',
-      titulo: 'Pollo Brasa DB con Papas y Ensalada',
-      price: 'S/. 74.90'
+      titulo: 'Mostro',
+      price: 'S/. 17.00'
   },
-  {   src: './1010/unidades/4.jpg',
+  {   src: './1010/unidades/4.jpeg',
       alt: 'No disponible',
-      titulo: 'Pollo Brasa DB con Acomp. y Ensalada',
-      price: 'S/. 79.90'
+      titulo: '1/2 Pollo a la Brasa',
+      price: 'S/. 27.00'
   },
-  {   src: './1010/unidades/5.jpg',
+  {   src: './1010/unidades/5.jpeg',
       alt: 'No disponible',
-      titulo: '1/4 Brasa DB con Papas',
-      price: 'S/. 23.90'
+      titulo: '1/2 Pollo a la Brasa + 1 Palo de Anticucho',
+      price: 'S/. 29.00'
   },
-  {   src: './1010/unidades/6.jpg',
+  {   src: './1010/unidades/6.jpeg',
       alt: 'No disponible',
-      titulo: '1/4 Brasa DB con Papas y Ensalada',
-      price: 'S/. 25.90'
+      titulo: 'Pollo Entero + Papas, Ensalada y Gaseosa',
+      price: 'S/. 48.00'
   },
-  {   src: './1010/unidades/7.jpg',
+  {   src: './1010/unidades/7.jpeg',
       alt: 'No disponible',
-      titulo: '1/4 Brasa DB con Acomp. y Ensalada',
-      price: 'S/. 27.90'
+      titulo: 'Pollo Entero + Papas, Ensalada y Chicha',
+      price: 'S/. 50.00'
   },
   {   src: './1010/unidades/8.jpg',
       alt: 'No disponible',
-      titulo: '1/2 Brasa DB con Papas',
-      price: 'S/. 39.90'
+      titulo: 'Tequeños de Pollo',
+      price: '3 x S/. 5.00 - 6 x S/. 10.00'
   },
-  {   src: './1010/unidades/9.jpg',
+  {   src: './1010/unidades/9.jpeg',
       alt: 'No disponible',
-      titulo: '1/2 Brasa DB con Papas y Ensalada',
-      price: 'S/. 44.90'
+      titulo: 'Alitas BBQ',
+      price: '6 x S/. 10.00 - 10 x S/. 20.00'
   },
-  {   src: './1010/unidades/10.jpg',
+  {   src: './1010/unidades/10.jpeg',
       alt: 'No disponible',
-      titulo: '1/2 Brasa DB con 2 Acomp. y Ensalada',
-      price: 'S/. 47.90'
+      titulo: 'Alitas Picante',
+      price: '6 x S/. 10.00 - 10 x S/. 20.00'
   },
   {   src: './1010/unidades/11.jpg',
       alt: 'No disponible',
-      titulo: 'Pollo Brasa DB con 4 Acomp. Personal y Ensalada',
-      price: 'S/. 84.90'
+      titulo: 'Anticuchos 2 Palitos',
+      price: 'S/. 14.00'
   },
   {   src: './1010/unidades/12.jpg',
       alt: 'No disponible',
-      titulo: 'Pollo Brasa Don Beli',
-      price: 'S/. 44.90'
+      titulo: 'Anticuchos 3 Palitos',
+      price: 'S/. 18.00'
   },
   {   src: './1010/unidades/13.jpg',
       alt: 'No disponible',
-      titulo: 'Ensalada Cocida',
-      price: 'S/. 17.90'
+      titulo: 'Brochetas de Pollo',
+      price: '2 x S/. 14.00 - 3 x S/. 18.00'
   },
   {   src: './1010/unidades/14.jpg',
       alt: 'No disponible',
-      titulo: 'Ensalada Fresca',
-      price: 'S/. 15.90'
+      titulo: 'Mollejita',
+      price: 'S/. 14.00'
   },
   {   src: './1010/unidades/15.jpg',
       alt: 'No disponible',
-      titulo: 'Papas Crocantitas',
-      price: 'S/. 9.90'
+      titulo: 'Rachi',
+      price: 'S/. 14.00'
   },
   {   src: './1010/unidades/16.jpg',
       alt: 'No disponible',
-      titulo: 'Papas del Caporal Personal',
-      price: 'S/. 12.90'
+      titulo: 'Choncholí',
+      price: 'S/. 14.00'
   },
   {   src: './1010/unidades/17.jpg',
       alt: 'No disponible',
-      titulo: 'Camotitos de la Abuelita Personal',
-      price: 'S/. 12.90'
+      titulo: 'Chicharrón de Pollo',
+      price: 'S/. 17.00'
   },
   {   src: './1010/unidades/18.jpg',
       alt: 'No disponible',
-      titulo: 'Arroz Chaufa Personal',
-      price: 'S/. 9.90'
+      titulo: 'Pollo a La Parrilla',
+      price: 'S/. 17.00'
   },
   {   src: './1010/unidades/19.jpg',
       alt: 'No disponible',
-      titulo: 'Arrocito de la Cacerola Personal',
-      price: 'S/. 9.90'
+      titulo: 'Piña Colada',
+      price: '2 x S/. 17.00'
+  },
+  {   src: './1010/unidades/20.jpg',
+      alt: 'No disponible',
+      titulo: 'Algarrobina',
+      price: '2 x S/. 17.00'
+  },
+  {   src: './1010/unidades/21.jpeg',
+      alt: 'No disponible',
+      titulo: 'Pisco Sour',
+      price: '2 x S/. 15.00'
+  },
+  {   src: './1010/unidades/22.jpg',
+      alt: 'No disponible',
+      titulo: 'Machu Picchu',
+      price: '2 x S/. 17.00'
+  },
+  {   src: './1010/unidades/23.jpg',
+      alt: 'No disponible',
+      titulo: 'Chilcano',
+      price: '2 x S/. 15.00'
+  },
+  {   src: './1010/unidades/24.jpg',
+      alt: 'No disponible',
+      titulo: 'Chicha Morada',
+      price: 'S/. 8.00'
   }
 ]
 
