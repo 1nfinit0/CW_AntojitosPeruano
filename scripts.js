@@ -16,7 +16,7 @@ promo.addEventListener("click", function() {
 
 lista.addEventListener("click", function() {
   window.scroll({
-    top: 1690,
+    top: 1850,
     left: 0,
     behavior: 'smooth'
     });
